@@ -47,11 +47,21 @@
     color: #888;
 }
 
-/* @font-face {
-  font-family: Montserrat;
-  src: url("../public/fonts/Montserrat-SemiBold.ttf") ;
-  font-weight: 200 400;
-} */
+@font-face {
+    font-family: Macondo;
+    src: url("../src/assets/fonts/macondo.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: Teko;
+    src: url("../src/assets/fonts/Teko.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: space;
+    src: url("../src/assets/fonts/space.ttf");
+    font-weight: 400;
+}
 
 @font-face {
 }
@@ -78,9 +88,6 @@ body {
     /* background-color: black; */
 }
 
-section {
-}
-
 .MuiBox-root {
     display: flex;
 }
@@ -92,4 +99,8 @@ img {
 .MuiBox-root {
     display: flex;
     flex-direction: column;
+}
+
+p {
+    font-family: "Josefin Sans";
 }

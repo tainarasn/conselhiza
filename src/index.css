@@ -1,5 +1,5 @@
 :root {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     line-height: 1.5;
     font-weight: 400;
 
@@ -31,8 +31,8 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url("../src//assets//cloud2.svg");
-    background-size: contain;
-    background-position-x: center;
+    background-size: 120vw 120vw;
+    background-position: center;
 
     /* padding: 0.8vw; */
 }

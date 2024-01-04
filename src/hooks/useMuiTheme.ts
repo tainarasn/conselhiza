@@ -4,7 +4,7 @@ import { colors } from "../styles/colors"
 export const useMuiTheme = () => {
     const THEME = createTheme({
         typography: {
-            fontFamily: ["at", "hammk", "machine", "space", "Teko"].join(","),
+            fontFamily: ["Josefin Sans", "Macondo", "Teko", "space"].join(","),
         },
         palette: {
             primary: {
