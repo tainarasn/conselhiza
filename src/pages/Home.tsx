@@ -57,7 +57,7 @@ export const Home: React.FC<HomeProps> = () => {
             >
                 <Box sx={{ flexDirection: "column", alignItems: "center" }}>
                     <p style={{ color: "#37658C", fontFamily: "Josefin Sans", fontWeight: "bold", fontSize: "1.8vw" }}>
-                        Advice of the moment
+                        Conselhiza
                     </p>
                     <p
                         style={{
