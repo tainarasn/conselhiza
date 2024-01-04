@@ -8,7 +8,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Teko;
     /* user-select: none; */
 }
 
@@ -55,14 +54,6 @@
 } */
 
 @font-face {
-    font-family: Teko;
-    src: url("../src/assets/fonts/Teko.ttf");
-    font-weight: bold;
-}
-@font-face {
-    font-family: Abibas;
-    src: url("../src/assets/fonts/Abibas.ttf");
-    font-weight: bold;
 }
 
 form {
