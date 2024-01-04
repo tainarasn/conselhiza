@@ -1,10 +1,9 @@
-import React, { useEffect, useRef, useState } from "react"
-import gsap from "gsap"
-import { Box, SxProps, Tooltip } from "@mui/material"
+import React, { useEffect, useState } from "react"
+import { Box, SxProps } from "@mui/material"
 import { fetchAdvice } from "../hooks/useAdvicesApi.ts"
 import { Footer } from "../components/Footer.tsx"
 import { Logo } from "../components/Logo.tsx"
-import { WiCloudRefresh } from "react-icons/wi"
+// import { WiCloudRefresh } from "react-icons/wi"
 
 declare interface HomeProps {}
 export const Home: React.FC<HomeProps> = () => {
